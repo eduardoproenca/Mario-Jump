@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merri;
+    src: url(../fonts/Merriweather-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Silk2;
+    src: url(../fonts/Silkscreen-Regular.ttf);
+}
+
+
+body {
+    position: relative;
+    background-color: rgb(27, 148, 204);
+}
+
+.tit1 {
+    color: rgba(13, 226, 23, 0.555);
+    font-family: Fredoka;
+    position: absolute;
+    font-size: 80px;
+    margin-top: 140px;
+    margin-left: 60px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.tit1:hover {
+    color: rgb(40, 233, 49);
+}
+
+.tit2 {
+    color: rgba(228, 14, 32, 0.712);
+    font-family: Fredoka;
+    position: absolute;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 280px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.tit2:hover {
+    color: tomato;
+}
+
+.tit3 {
+    color: rgba(223, 202, 20, 0.534);
+    font-family: Fredoka;
+    position: absolute;
+    font-size: 70px;
+    margin-top: 180px;
+    margin-left: 455px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.tit3:hover {
+    color: gold;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 780px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 8px 15px 20px 3px #2C3156;
+}
+
+.rel {
+    font-family: Silk2;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 250px;
+    font-size: 60px;
+    color: rgba(170, 15, 170, 0.719);
+    border: 1px solid black;
+    border-radius: 8%;
+    background: linear-gradient(#3443b3, #2C3156);
+    box-shadow: 8px 15px 20px 3px #2C3156;
+}
+
+.rel:hover {
+    color: rgba(212, 14, 212, 0.945);
+}
+
+.eu {
+    position: absolute;
+    width: 140px;
+    margin-left: 1150px;
+    margin-top: 420px;
+    border: 2px solid gold;
+    border-radius: 3%;
+    box-shadow: 8px 5px 20px 3px #918814;
+}
+
+.nome {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(174, 233, 14);
+    font-family: Merri;
+    font-size: 23px;
+    margin-left: 1130px;
+    margin-top: 590px;
+}
+
+.dev {
+    position: absolute;
+    font-family: Merri;
+    font-size: 25px;
+    margin-left: 1050px;
+    margin-top: 470px;
+}
